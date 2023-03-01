@@ -1,0 +1,120 @@
+@import url('htttps://fonts.googleapis');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 600;
+    font-family: poppins;
+}
+
+header{
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+}
+
+
+logo img{
+    width: 170vw;
+}
+
+nav{
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.logo{
+    margin: 20px 0px 0px 30px;
+}
+.nav-btn{
+    background-color: white;
+    color: rgb(119, 119, 119);
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+    margin: 10px 50px 0px 0px;
+    width: 170px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 2px 5px 5px 2px rgba(106, 106, 106, 0.121);
+}
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 70px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-col img{
+    width: 40vw;
+}
+.left-col img{
+    margin: 0px 0px 10px 0px;
+}
+
+p{
+    margin: 0px 0px 10px 0px;
+}
+
+.hero-cta-btn{
+    width: 200px;
+    background-color: hsl(322, 100%, 66%);
+    padding: 10px;
+    border-style: none;
+    color: white;
+    border-radius: 20px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.card-one{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: -1px 3px 2px 2px rgba(106, 106, 106, 0.344);
+}
+
+.card-two{
+    margin: 30px 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: -1px 3px 2px 2px rgba(106, 106, 106, 0.344);
+}
+
+.card-three{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: -1px 3px 2px 2px rgba(106, 106, 106, 0.344);
+}
+
+.left-card-col img{
+    width: 30vw;
+    margin: 50px;
+}
+
+.right-card-col img{
+    width: 30vw;
+    margin: 50px;
+}
